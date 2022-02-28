@@ -1,0 +1,34 @@
+table {
+  border: 2px solid blue;
+}
+
+table tr:nth-child(odd) {
+  background-color: hsl(199, 80%, 30%);
+}
+table tr > td:last-child {
+  background-color: rgb(48, 13, 245);
+}
+
+table tr:nth-child(even) {
+  background-color: hsl(120, 87%, 47%);
+}
+
+table tr:first-child {
+  background-color: hsl(60, 0%, 80%);
+}
+
+table tr:last-child {
+  background-color: black;
+}
+
+tbody th {
+  color:rgb(240, 239, 241)
+}
+
+tr {
+  color:rgb(252, 252, 252)
+}
+
+code {
+  font-size: 125%;
+}
